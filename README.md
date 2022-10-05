@@ -16,6 +16,8 @@ ElectroStore is a full fledged electronics store which facilitates all end-to-en
     - The entire payment system is facilitated by Stripe which makes payment not only secure but also very fast.
 - Server-Side Rendering:
     - All the images of the products, user account image, product categories are rendered server side which improves the site response time thereby enhancing user experience.
+- User and Content Database:
+    - Once the user sign-in, his/her account will be automatically generated in the Sanity Database. This is achieved by implementing sanity adapter and along with that the entire content of the site is also managed by SanityCMS.
 
 
 
